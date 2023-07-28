@@ -396,6 +396,7 @@ impl ConvertFrom<SrgbAU8> for LinearSrgbA {}
 impl ConvertFrom<SrgbAF32> for LinearSrgbA {}
 impl ConvertFrom<SrgbAU8Premultiplied> for LinearSrgbA {}
 impl ConvertFrom<LinearSrgb> for LinearSrgbA {}
+impl ConvertFrom<LinearSrgbA> for LinearSrgbA {}
 impl ConvertFrom<LinearSrgbAPremultiplied> for LinearSrgbA {}
 // TODO: oklab gamut clipping
 impl ConvertFrom<Oklab> for LinearSrgbA {}
